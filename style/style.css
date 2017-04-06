@@ -3,8 +3,12 @@
   text-align: center;
 }
 
+.nav-title {
+  font-weight: 500;
+}
+
 .search-bar input {
-  width: 75%;
+  width: 65%;
 }
 
 .video-item img {
@@ -24,4 +28,9 @@
 
 .list-group-item:hover {
   background-color: #eee;
+}
+
+.vid-title {
+  font-size: 1.2em;
+  font-weight: 500;
 }
