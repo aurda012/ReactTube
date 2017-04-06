@@ -1,26 +1,9 @@
-# ReduxSimpleStarter
-
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
-
-###Getting Started###
-
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
-
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-	> npm install
-	> npm start
-```
 # ReactTube
+My first React application! Made after youtube.
+
+## Features
+- Implemented youtube API to get all videos from youtube!
+- Implemented lodash to get cool load times while searching
+-	Easy to use and more user friendly than youtube
+- Used class and functions in JSX in proper usage
+- Extremely fast load times
