@@ -10,10 +10,14 @@ class SearchBar extends Component {
   render() {
     return (
       <div className="search-bar">
-        <div className="navbar-brand nav-title">ReactTube</div>
-        <input
+        <input className="col-md-8"
+          type="text"
+          placeholder="Search..."
           value={this.state.term}
           onChange={event => this.onInputChange(event.target.value)} />
+        <div className="col-md-4 top-marg">
+          <h5>Related Searches:</h5>
+        </div>
       </div>
     );
   }

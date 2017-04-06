@@ -1,18 +1,43 @@
-.search-bar {
-  margin: 20px;
-  text-align: center;
+ul {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
 }
 
-.nav-title {
-  font-weight: 500;
+li {
+  display: inline-block;
+}
+
+h1 {
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+.search-bar {
+  margin: 15px;
+  text-align: left;
 }
 
 .search-bar input {
-  width: 65%;
+  width: 65.7%;
+  margin-right: 10px;
+}
+
+.top-marg {
+  margin-top: 3px;
 }
 
 .video-item img {
-  max-width: 64px;
+  max-width: 62px;
+}
+
+.list-group {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.video-detail {
+  margin-top: 10px;
 }
 
 .video-detail .details {
@@ -23,6 +48,7 @@
 }
 
 .list-group-item {
+  height: 115px;
   cursor: pointer;
 }
 
@@ -33,4 +59,19 @@
 .vid-title {
   font-size: 1.2em;
   font-weight: 500;
+}
+
+.App-header {
+  background-color: #333;
+  color: #00d8ff;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-title {
+  margin-top: 8px;
+  padding-left: 15px;
+  font-weight: 400;
 }
